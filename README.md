@@ -56,3 +56,5 @@ Google DataStore connector for loopback
 
 ## Currently filtering operators
     and
+
+## Support for eq, gt, gte, lt & lte
