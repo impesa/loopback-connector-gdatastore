@@ -1,14 +1,14 @@
 {
-  "name": "loopback-connector-gdatastore",
-  "version": "1.0.6",
-  "description": "Google DataStore connector for loopback",
+  "name": "loopback-connector-gcp-datastore",
+  "version": "1.0.7",
+  "description": "Google Cloud Platform DataStore connector for loopback",
   "main": "index.js",
   "scripts": {
     "test": "mocha test --timeout 9999 -R spec"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/impesa/loopback-connector-gdatastore.git"
+    "url": "git+https://github.com/ScaleneZA/loopback-connector-gdatastore.git"
   },
   "keywords": [
     "Loopback",
@@ -21,9 +21,9 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/impesa/loopback-connector-gdatastore/issues"
+    "url": "https://github.com/ScaleneZA/loopback-connector-gdatastore/issues"
   },
-  "homepage": "https://github.com/impesa/loopback-connector-gdatastore#readme",
+  "homepage": "https://github.com/ScaleneZA/loopback-connector-gdatastore#readme",
   "dependencies": {
     "@google-cloud/datastore": "^1.1.0",
     "lodash.forin": "^4.4.0",
