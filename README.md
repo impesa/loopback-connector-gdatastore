@@ -1,15 +1,18 @@
 # loopback-connector-gdatastore
-Google DataStore connector for loopback
+Google Cloud Platform DataStore connector for loopback
+
+###Disclaimer:
+This is a forked version of loopback-connector-gdatastore
 
 ## Installation
 
-    npm install loopback-connector-gdatastore --save
+    npm install loopback-connector-gcp-datastore --save
 
 ## Setup datasources.json
 ```json
   "gdatastore": {
     "name": "gdatastore",
-    "connector": "loopback-connector-gdatastore",
+    "connector": "loopback-connector-gcp-datastore",
     "projectId": "gcloud-project-id",
     "namespace": "datastore-namespace"
   }
